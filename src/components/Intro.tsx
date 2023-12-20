@@ -73,12 +73,15 @@ export default function Intro() {
         py-3 flex items-center gap-2 rounded-full outline-none
         focus:scale-110 hover:scale-110 hover:bg-gray-950
         active:scale-100 transition">
-          Contact me here <BsArrowRight/>
+          Contact me here <BsArrowRight
+          className="opacity-70 group-hover:translate-x-1 transition"/>
         </Link>
 
-        <a className="bg-white px-7
-        py-3 flex items-center gap-2 rounded-full">
-          Download CV <HiDownload />
+        <a className="group bg-white px-7
+        py-3 flex items-center gap-2 rounded-full outline-none
+        focus:scale-110 hover:scale-110
+        active:scale-100 transition cursor-pointer" href="/CV.pdf" download>
+          Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
         </a>
         <a className="bg-white text-gray-700 px-5 py-4
         flex items-center gap-2 rounded-full">
