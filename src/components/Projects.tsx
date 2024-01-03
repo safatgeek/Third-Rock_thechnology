@@ -5,7 +5,7 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <section id="projects" className=" scroll-mt-28">
 
       <SectionHeading>
       <div className="text-center">My Projects
